@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:routing_example/configs/app_pages.dart';
+import 'package:routing_example/configs/app_page_routes.dart';
 import 'package:routing_example/middlewares/authcheck_middleWare.dart';
 import 'package:routing_example/pages/dashboard/controller/dashboard_controller.dart';
 import 'package:routing_example/pages/explore/explore_page.dart';

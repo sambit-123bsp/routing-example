@@ -3,8 +3,8 @@ import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:routing_example/configs/app_pages.dart';
-import 'package:routing_example/configs/app_storage.dart';
+import 'package:routing_example/configs/app_page_routes.dart';
+import 'package:routing_example/configs/shared_preference_helper.dart';
 import 'package:routing_example/pages/dashboard/dashboard_page.dart';
 
 
@@ -13,7 +13,7 @@ import 'package:routing_example/pages/dashboard/dashboard_page.dart';
 ///
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  AppStorage storage = Get.put(AppStorage());
+  SharedPreferenceHelper storage = Get.put(SharedPreferenceHelper());
   await storage.initStorage();
   runApp(const MyApp());
 }

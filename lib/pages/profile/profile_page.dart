@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:routing_example/configs/app_storage.dart';
+import 'package:routing_example/configs/shared_preference_helper.dart';
 import 'package:routing_example/pages/authentication/login_page.dart';
 
 class ProfilePage extends GetResponsiveView {
@@ -35,7 +35,7 @@ class ProfilePage extends GetResponsiveView {
                       child: const Text('cancel'),
                     ),
                     TextButton(onPressed: () {
-                      AppStorage storage = Get.find<AppStorage>();
+                      SharedPreferenceHelper storage = Get.find<SharedPreferenceHelper>();
                       storage.logout();
                       Get.rootDelegate.offAndToNamed(LoginPage.routeName);
                     }, child: const Text('ok'))
