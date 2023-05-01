@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "829484425389",
+    "project_id": "routing-example-5766b",
+    "storage_bucket": "routing-example-5766b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829484425389:android:5fb9bee0fa766989bce624",
+        "android_client_info": {
+          "package_name": "com.example.routing_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829484425389-ml6c2otmjqgvfob1nltg61ben65qu6dj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.routing_example",
+            "certificate_hash": "8ecbfd27dafc844d50e21aa3ce62d0153d40069b"
+          }
+        },
+        {
+          "client_id": "829484425389-dnsr40jcaeiqamvckgpt1qkjnh9c973f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB97e82BtuOBy8jhMbU67a-5p7TENBk9N4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829484425389-dnsr40jcaeiqamvckgpt1qkjnh9c973f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
